@@ -1,12 +1,8 @@
 @charset "UTF-8";
 
-body{
-    background-color: rgb(78, 78, 78);
-}
-
 h1 {
     font-family: Arial;
-    color: rgb(0, 211, 11);
+    color: rgb(2, 243, 14);
     text-decoration: underline;
     
 }
