@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(78, 78, 78);
+}
+
+h1 {
+    font-family: Arial;
+    color: rgb(0, 211, 11);
+    text-decoration: underline;
+    
+}
+
+a {
+    color: inherit;
+}
+
+div#upBar {
+    background-color: rgb(9, 107, 9);
+    padding: 5px;
+}
+
+nav#menu ul{
+    list-style: none;
+}
+
+nav#menu li{
+    display: inline;
+}
