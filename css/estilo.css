@@ -1,8 +1,13 @@
 @charset "UTF-8";
 
+
+body {
+    background-color: #72FDb8;
+}
+
 h1 {
     font-family: Arial;
-    color: rgb(2, 243, 14);
+    color: #04F17A;
     text-decoration: underline;
     
 }
@@ -13,8 +18,13 @@ a {
 }
 
 div#upBar {
-    background-color: rgb(9, 107, 9);
+    background-color: #02793D;
     padding: 5px;
+}
+
+
+#menu {
+    background-color: #3F5E5A;
 }
 
 nav#menu ul{
@@ -23,4 +33,14 @@ nav#menu ul{
 
 nav#menu li{
     display: inline;
+}
+
+.list-style {
+    background-color: #3F5E5A;
+    list-style: none;
+}
+
+#about-me {
+    color: #04F17A;
+    background-color: #3F5E5A;
 }
