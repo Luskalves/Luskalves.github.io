@@ -3,6 +3,7 @@
 
 body {
     background-color: #72FDb8;
+
 }
 
 h1 {
@@ -17,14 +18,18 @@ a {
     color: inherit;
 }
 
-div#upBar {
+div#upBar { 
     background-color: #02793D;
     padding: 5px;
 }
 
 
 #menu {
+    padding-right: 30px;
+    position: fixed;
     background-color: #3F5E5A;
+    left: 60%;
+    top: 0px;
 }
 
 nav#menu ul{
@@ -32,6 +37,7 @@ nav#menu ul{
 }
 
 nav#menu li{
+    padding: 5px;
     display: inline;
 }
 
