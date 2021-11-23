@@ -28,7 +28,7 @@ div#upBar {
     padding-right: 30px;
     position: fixed;
     background-color: #3F5E5A;
-    left: 60%;
+    left: 67%;
     top: 0px;
 }
 
@@ -37,8 +37,17 @@ nav#menu ul{
 }
 
 nav#menu li{
-    padding: 5px;
     display: inline;
+    margin: 5px;
+}
+
+#menu:hover a{
+    background-color: green;
+
+}
+
+#menu:active a{
+    color: white;
 }
 
 .list-style {
@@ -46,7 +55,20 @@ nav#menu li{
     list-style: none;
 }
 
+
+img {
+    border-radius: 100%;
+    margin-left: 43%;
+}
+
+
+.myself h1, h2, p{
+    text-align: center;
+    
+}
+
 #about-me {
     color: #04F17A;
     background-color: #3F5E5A;
 }
+
