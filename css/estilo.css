@@ -3,6 +3,7 @@
 
 body {
     background-color: #72FDb8;
+
 }
 
 h1 {
@@ -17,14 +18,18 @@ a {
     color: inherit;
 }
 
-div#upBar {
+div#upBar { 
     background-color: #02793D;
     padding: 5px;
 }
 
 
 #menu {
+    padding-right: 30px;
+    position: fixed;
     background-color: #3F5E5A;
+    left: 67%;
+    top: 0px;
 }
 
 nav#menu ul{
@@ -33,6 +38,16 @@ nav#menu ul{
 
 nav#menu li{
     display: inline;
+    margin: 5px;
+}
+
+#menu:hover a{
+    background-color: green;
+
+}
+
+#menu:active a{
+    color: white;
 }
 
 .list-style {
@@ -40,7 +55,20 @@ nav#menu li{
     list-style: none;
 }
 
+
+img {
+    border-radius: 100%;
+    margin-left: 43%;
+}
+
+
+.myself h1, h2, p{
+    text-align: center;
+    
+}
+
 #about-me {
     color: #04F17A;
     background-color: #3F5E5A;
 }
+
