@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Roboto:wght@300&display=swap');
 
-
+/* CORPO E TAGS ISOLADAS */
 body {
     background-color: #72FDb8;
 
@@ -23,54 +23,11 @@ a {
     color: inherit;
 }
 
+/* MENU */
+
 div#upBar { 
     background-color: #3F5E5A;
     padding: 5px;
-}
-
-.list-style {
-    background-color: #3F5E5A;
-    list-style: none;
-}
-
-.habilidades-style {
-    text-decoration: underline;
-}
-
-img {
-    border-radius: 100%;
-    margin-left: 43%;
-}
-
-
-.myself h1, h2, p{
-    text-align: center;
-    
-}
-
-#about-me {
-    color: #04F17A;
-    background-color: #3F5E5A;
-    padding: 10px;
-    text-decoration: underline;
-    font-family: monospace;
-}
-
-ul.habilidades{
-    padding: 5px;
-}
-
-ul.habilidades li{
-    display: inline;
-}
-
-.nerdpower:hover{
-    background-color: rgb(55, 91, 255);
-    padding: 5px;
-}
-
-.my-github:hover{
-    background-color: #ADBAC7;
 }
 
 ul.menu {
@@ -100,9 +57,61 @@ a.menu-options:hover {
 
 }
 
-.block-image p{
-    padding-top: 10px;
+
+/* ESTILO DAS LISTAS*/
+
+.list-style {
+    background-color: #3F5E5A;
+    list-style: none;
 }
+
+
+
+.habilidades-style {
+    text-decoration: underline;
+}
+
+ul.habilidades{
+    padding: 5px;
+}
+
+ul.habilidades li{
+    display: inline;
+}
+
+/* SOBRE MIM GERAL */
+
+img {
+    border-radius: 100%;
+    margin-left: 43%;
+}
+
+
+.myself h1, h2, p{
+    text-align: center;
+    
+}
+
+#about-me {
+    color: #04F17A;
+    background-color: #3F5E5A;
+    padding: 10px;
+    text-decoration: underline;
+    font-family: monospace;
+}
+
+/* LINKS ABOUT ME*/
+
+.nerdpower:hover{
+    background-color: rgb(55, 91, 255);
+    padding: 5px;
+}
+
+.my-github:hover{
+    background-color: #ADBAC7;
+}
+
+/* FOTO E TEXTO */
 
 .image-block {
 
@@ -110,25 +119,22 @@ a.menu-options:hover {
 }
 
 .image-style{
-    margin-left: 10px;
+
     padding: 30px;
     width: 10%;
-    margin-left: 0%;
 
 }
-.image-style img{
-    
-    float: left;    
+
+.image-style img{ 
     padding: 10px;
     background-color: #02793D;
-
 }
 
 .content-block {
     margin-top: 5%;
-    float: right;
     position: absolute;
     background-color: #3F5E5A;
     padding: 5px 10px;
-    margin-left: 15%;    
+    margin-left: 12%;  
+      
 }
