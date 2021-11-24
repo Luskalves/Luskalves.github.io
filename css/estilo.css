@@ -57,6 +57,40 @@ a.menu-options:hover {
 
 }
 
+/* ESTILO POTFÓLIO PRINCIPAL*/
+
+#port-title {
+    background-color: #3F5E5A;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+#port-title h2 {
+    color: #04F17A;
+    text-decoration: underline;
+}
+
+#port-title p{
+    line-height: 25px;
+}
+
+#tryber a{
+    text-decoration: underline;
+}
+
+#tryber:hover {
+    background-color: #04F17A;
+    padding: 2px;
+}
+
+.my-github:hover{
+    background-color: #ADBAC7;
+    padding: 2px;
+}
+
 
 /* ESTILO DAS LISTAS*/
 
@@ -105,10 +139,6 @@ img {
 .nerdpower:hover{
     background-color: rgb(55, 91, 255);
     padding: 5px;
-}
-
-.my-github:hover{
-    background-color: #ADBAC7;
 }
 
 /* FOTO E TEXTO */
