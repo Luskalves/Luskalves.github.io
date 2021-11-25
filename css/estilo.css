@@ -99,8 +99,6 @@ a.menu-options:hover {
     list-style: none;
 }
 
-
-
 .habilidades-style {
     text-decoration: underline;
 }
@@ -109,9 +107,32 @@ ul.habilidades{
     padding: 5px;
 }
 
-ul.habilidades li{
-    display: inline;
+.section-lang{
+    margin: auto;
+    width: 350px;
+    background-color: #3F5E5A;
+    padding: 3px;
+    text-align: center;
+    
 }
+
+.section-lang h4 {
+    color: #04F17A;
+    text-decoration: underline;
+    font-family: monospace;
+}
+
+ul.lang-skills {
+    padding: 10px;
+}
+
+ul.lang-skills li{
+    display: inline;
+    font-weight: bold;
+    font-family: monospace;
+    
+}
+
 
 /* SOBRE MIM GERAL */
 
