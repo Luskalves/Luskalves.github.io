@@ -1,0 +1,22 @@
+/* * {
+  margin: 30px 50px;
+} */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3F5E5A;
+}
+
+h1, a {
+  color: #04F17A;
+}
+
+h1 {
+  margin-left: 2%;
+}
+
+nav {
+  margin-right: 2%;
+}

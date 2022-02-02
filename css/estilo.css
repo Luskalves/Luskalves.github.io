@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Roboto:wght@300&display=swap');
 
 /* CORPO E TAGS ISOLADAS */
-body {
+ body {
     background-color: #72FDb8;
 
 }
@@ -22,6 +22,7 @@ p {
 a {
     color: inherit;
 }
+
 
 /* MENU */
 
